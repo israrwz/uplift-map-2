@@ -1,8 +1,0 @@
--e DATA-Line-2
-asdf
-a
-sdf
--e DATA-Line-1
-asdf
-a
-sdf
