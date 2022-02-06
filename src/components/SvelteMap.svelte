@@ -264,7 +264,7 @@
 		position: absolute;
 		align-self: center;
 		left: -380px;
-		top: 60%;
+		top: 50%;
 		-ms-transform: translate(0, -50%);
 		transform: translate(0, -50%);
 		font-family: monospace, Arial, sans-serif;
