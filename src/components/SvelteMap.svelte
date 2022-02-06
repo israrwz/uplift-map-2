@@ -146,7 +146,7 @@
 				red = false;
 			}
 			// if (has_stats)
-			layer.bindTooltip(popupStr, { sticky: true, className: 'popup', opacity: 0.95 }).openTooltip();
+			//			layer.bindTooltip(popupStr, { sticky: true, className: 'popup', opacity: 0.95 }).openTooltip();
 		});
 
 		layer.on('mouseout', function () {
@@ -235,6 +235,10 @@
 		/* grid-template-columns: au; */
 		/* display: grid; */
 		display: block;
+	}
+
+	:global(.leaflet-container){
+		background:#f9f7eb !important;
 	}
 
 	main #map {
