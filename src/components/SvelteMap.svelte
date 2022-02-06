@@ -248,6 +248,7 @@
 		/* width: 800px; */
 	}
 	main #sidebar {
+		background: #f9f7eb;
 		height: 50vh;
 		width: 100%;
 		grid-column: 2;
