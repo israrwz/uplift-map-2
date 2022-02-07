@@ -120,8 +120,8 @@
 	});
 	//jmp
 	const onFeature = (feature, layer) => {
-		layer.on('mouseover', function () {
-			this.setStyle({
+		const clicked = (feature,layer)=> {
+			layer.setStyle({
 				// fillColor: '#fce1cb',
 
 				fillOpacity: 0.5
@@ -147,7 +147,7 @@
 			}
 			// if (has_stats)
 			//			layer.bindTooltip(popupStr, { sticky: true, className: 'popup', opacity: 0.95 }).openTooltip();
-		});
+		}
 
 		layer.on('mouseout', function () {
 			this.setStyle({
@@ -161,10 +161,9 @@
 			red = true;
 		});
 
-		layer.on('click', function () {
-			// Let's say you've got a property called url in your geojsonfeature:
-			// console.log();
-		});
+		layer.on('mouseover',()=>clicked(feature,layer));
+		layer.on('click',()=>clicked(feature,layer));
+
 	};
 	//jmp	
 
