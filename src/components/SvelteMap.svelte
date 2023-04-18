@@ -199,13 +199,13 @@
 				<h2 class:red>{province}</h2>
 				<br />
 				{#if total_individuals}
-					<h3>Distributions:</h3>
+					<h3>Beneficiaries:</h3>
 					<br />
 					<h4>Total families: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{total_families}</b></h4>
 					<h4>Total individuals: &nbsp;&nbsp;&nbsp;<b>{total_individuals}</b></h4>
 					<br /> <br /> <br />
 				{:else}
-					<h3>No Distributions</h3>
+					<h3>No Beneficiaries</h3>
 					<br /><br /><br /> <br /> <br /> <br />
 				{/if}
 			{/if}
